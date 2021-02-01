@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from '../styles.module.css'
+import styles from './styles.module.css'
 import CloseIcon from '@material-ui/icons/Close'
 import Button from '@material-ui/core/Button'
 import CheckCircleIcon from '@material-ui/icons/CheckCircle'

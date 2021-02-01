@@ -55,11 +55,11 @@
   cursor: pointer;
 }
 
-.feedback-item:hover {
+.feedback_item:hover {
   background-color: #eaeaeb;
 }
 
-.feedback-item:active {
+.feedback_item:active {
   background-color: #d0cccc;
   box-shadow: 0 0 0 white;
   border: 0px solid #41a0ff;
