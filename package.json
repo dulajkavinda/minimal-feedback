@@ -1,10 +1,13 @@
 {
   "name": "minimal-feedback",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Made with create-react-library",
   "author": "dulajkavinda",
   "license": "MIT",
-  "repository": "dulajkavinda/minimal-feedback",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dulajkavinda/minimal-feedback.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

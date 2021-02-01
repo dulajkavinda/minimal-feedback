@@ -38,7 +38,9 @@ Here's a sample implementation that creates a custom popup on a dummy Create-Rea
 
 ```jsx
 import React, { useState } from 'react'
+
 import MinimalFeedback from 'minimal-feedback'
+import 'minimal-feedback/dist/index.css' // don't forget to import css
 
 const App = () => {
   const [text, settext] = useState({ feedback: '' })

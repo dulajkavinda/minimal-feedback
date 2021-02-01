@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from './styles.module.css'
+import styles from '../styles.module.css'
 
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects'
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz'

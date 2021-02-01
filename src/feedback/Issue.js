@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from './styles.module.css'
+import styles from '../styles.module.css'
 import { makeStyles } from '@material-ui/core/styles'
 import ArrowBackIcon from '@material-ui/icons/ArrowBack'
 import CloseIcon from '@material-ui/icons/Close'
