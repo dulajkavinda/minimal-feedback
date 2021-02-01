@@ -1,6 +1,6 @@
 # minmal-feedback
 
-[![NPM](https://img.shields.io/npm/v/minimal-feedback.svg)](https://www.npmjs.com/package/minimal-feedback) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [ ![downloads](https://img.shields.io/npm/dt/pdf-lecture.svg)](https://www.npmjs.org/package/pdf-lecture)
+[![NPM](https://img.shields.io/npm/v/minimal-feedback.svg)](https://www.npmjs.com/package/minimal-feedback) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [ ![downloads](https://img.shields.io/npm/dt/pdf-lecture.svg)](https://www.npmjs.com/package/minimal-feedback)
 
 **minimal-feedback** is a blazingly fast and highly customizable component to get user feedback.
 
