@@ -5,7 +5,7 @@
 **minimal-feedback** is a blazingly fast and highly customizable component to get user feedback.
 
 <p align="center">
-  <img src="src/demo.gif" alt="animated" />
+  <img width="50%" src="src/demo.gif" alt="animated" />
 </p>
 
 ### Live Demo
