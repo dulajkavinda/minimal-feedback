@@ -111,7 +111,7 @@ export default function Feedback(props) {
             onChange={props.onChange}
             save={props.save}
             message={props.value}
-            placeholder='i noticed that...'
+            placeholder='I noticed that...'
             type='issue'
             toggle={setWindow}
             title='Report an Issue'
