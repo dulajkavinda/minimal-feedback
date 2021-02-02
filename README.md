@@ -12,7 +12,7 @@
 
 ---
 
-[Live Demo at minimal-feedback](http://dulajkavinda.me/minimal-feedback/)
+[Live Demo at minimal-feedback](https://dulajkavinda.me/minimal-feedback/)
 
 ### Why
 
