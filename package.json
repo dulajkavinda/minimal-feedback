@@ -1,7 +1,7 @@
 {
   "name": "minimal-feedback",
-  "version": "1.0.3",
-  "description": "Made with create-react-library",
+  "version": "1.0.6",
+  "description": "minimal-feedback is a blazingly fast and highly customizable component to get user feedback.",
   "author": "dulajkavinda",
   "license": "MIT",
   "repository": {
