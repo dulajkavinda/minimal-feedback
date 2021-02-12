@@ -5,6 +5,7 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack'
 import CloseIcon from '@material-ui/icons/Close'
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
+import IconButton from '@material-ui/core/IconButton'
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
@@ -24,18 +25,24 @@ export default function Issue(props) {
   return (
     <div className={styles.feedback_wrapper_issues_main}>
       <div className={styles.feedback_wrapper_issues}>
-        <ArrowBackIcon
-          style={{ color: 'grey', cursor: 'pointer' }}
+        <IconButton
+          aria-label='back'
           onClick={() => props.toggle('menu')}
-        />
+          size='small'
+        >
+          <ArrowBackIcon />
+        </IconButton>
         <span className={styles.feedback_title}>
           {props.icon}
           {props.title}
         </span>
-        <CloseIcon
-          style={{ color: 'grey', cursor: 'pointer' }}
+        <IconButton
+          aria-label='close'
           onClick={() => props.toggle('menu')}
-        />
+          size='small'
+        >
+          <CloseIcon />
+        </IconButton>
       </div>
       <form className={classes.root} noValidate autoComplete='off'>
         <TextField
