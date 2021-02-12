@@ -19,7 +19,7 @@ export default function Feedback(props) {
       <div className={styles.feedback_main}>
         {window === 'menu' ? (
           <div className={styles.feedback_wrapper}>
-            <span className={styles.feedback_title}>Whats on your mind?</span>
+            <span className={styles.feedback_title}>What's on your mind?</span>
             <div className={styles.feedback_items}>
               <div
                 onClick={() => setWindow('issue')}

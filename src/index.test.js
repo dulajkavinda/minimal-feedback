@@ -21,7 +21,7 @@ describe('MinimalFeedback', () => {
     render(<TestComponent save={save} />)
 
     userEvent.click(screen.getByText('Feedback'))
-    await screen.findByText('Whats on your mind?')
+    await screen.findByText("What's on your mind?")
 
     userEvent.click(screen.getByText('Issue'))
     userEvent.type(screen.getByPlaceholderText('I noticed that...'), 'Bugg!')
