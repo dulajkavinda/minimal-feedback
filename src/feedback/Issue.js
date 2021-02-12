@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from '../styles.module.css'
 import { makeStyles } from '@material-ui/core/styles'
 import ArrowBackIcon from '@material-ui/icons/ArrowBack'
@@ -14,11 +14,6 @@ const useStyles = makeStyles((theme) => ({
 }))
 export default function Issue(props) {
   const classes = useStyles()
-  const [issues, setIssues] = useState('')
-
-  const onTextChange = (e) => {
-    setIssues(e.target.value)
-  }
 
   const submitFeedback = () => {
     props.save()
@@ -61,7 +56,7 @@ export default function Issue(props) {
         />
       </form>
       <Button
-        disabled={props.message.feedback.length >= 1 ? false : true}
+        disabled={props.message.feedback.length < 1}
         style={{ boxShadow: 'none', marginTop: '9px', borderRadius: '20px' }}
         variant='contained'
         color='primary'

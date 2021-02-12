@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import MinimalFeedback from '.'
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+describe('MinimalFeedback', () => {
+  it('exists', () => {
+    expect(MinimalFeedback).toBeTruthy()
   })
 })

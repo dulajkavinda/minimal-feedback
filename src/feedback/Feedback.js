@@ -9,7 +9,6 @@ import Issue from './Issue'
 import BugReportIcon from '@material-ui/icons/BugReport'
 export default function Feedback(props) {
   const [window, setWindow] = useState('menu')
-  const [isOpen, setIsOpen] = useState(true)
   return (
     <Modal
       className={styles.mymodal}
