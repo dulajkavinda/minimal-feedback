@@ -1,8 +1,10 @@
 import React from 'react'
-import styles from '../styles.module.css'
-import CloseIcon from '@material-ui/icons/Close'
 import Button from '@material-ui/core/Button'
+import IconButton from '@material-ui/core/IconButton'
+import CloseIcon from '@material-ui/icons/Close'
 import CheckCircleIcon from '@material-ui/icons/CheckCircle'
+
+import styles from '../styles.module.css'
 
 export default function Done(props) {
   return (
@@ -11,10 +13,13 @@ export default function Done(props) {
         style={{ justifyContent: 'flex-end' }}
         className={styles.feedback_wrapper_issues}
       >
-        <CloseIcon
-          style={{ color: 'grey', cursor: 'pointer' }}
+        <IconButton
+          aria-label='close'
           onClick={() => props.toggle('menu')}
-        />
+          size='small'
+        >
+          <CloseIcon />
+        </IconButton>
       </div>
       <CheckCircleIcon
         style={{
