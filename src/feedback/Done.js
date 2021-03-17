@@ -10,7 +10,7 @@ export default function Done(props) {
   return (
     <div className={styles.feedback_wrapper_issues_main}>
       <div
-        style={{ justifyContent: 'flex-end' }}
+        style={{ justifyContent: 'flex-end', marginBottom: -6 }}
         className={styles.feedback_wrapper_issues}
       >
         <IconButton
