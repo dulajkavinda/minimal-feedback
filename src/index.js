@@ -16,7 +16,6 @@ const MinimalFeedback = ({ onChange, value, save }) => {
         onClick={() => setFeedback(true)}
         style={{
           marginTop: '9px',
-          boxShadow: 'none',
           position: 'fixed',
           bottom: '15px',
           right: '15px',

@@ -1,20 +1,25 @@
-import React, { useState } from 'react'
-import styles from '../styles.module.css'
-import CloseIcon from '@material-ui/icons/Close'
+import React from 'react'
 import Button from '@material-ui/core/Button'
+import IconButton from '@material-ui/core/IconButton'
+import CloseIcon from '@material-ui/icons/Close'
 import CheckCircleIcon from '@material-ui/icons/CheckCircle'
+
+import styles from '../styles.module.css'
 
 export default function Done(props) {
   return (
     <div className={styles.feedback_wrapper_issues_main}>
       <div
-        style={{ justifyContent: 'flex-end' }}
+        style={{ justifyContent: 'flex-end', marginBottom: -6 }}
         className={styles.feedback_wrapper_issues}
       >
-        <CloseIcon
-          style={{ color: 'grey', cursor: 'pointer' }}
+        <IconButton
+          aria-label='close'
           onClick={() => props.toggle('menu')}
-        />
+          size='small'
+        >
+          <CloseIcon />
+        </IconButton>
       </div>
       <CheckCircleIcon
         style={{
